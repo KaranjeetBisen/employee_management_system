@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "excel.filename.prefix",
+    "type": "java.lang.String",
+    "description": "A description for 'excel.filename.prefix'"
+  },
+  {
+    "name": "excel.directory.path",
+    "type": "java.lang.String",
+    "description": "A description for 'excel.directory.path'"
+  }
+]}

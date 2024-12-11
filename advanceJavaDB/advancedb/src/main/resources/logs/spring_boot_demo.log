@@ -1,0 +1,37 @@
+2024-11-11 16:39:10 - Starting AdvancedbApplication using Java 17.0.12 with PID 283384 (/home/admin/Desktop/Redmine_karanjeetb/training/advance_java/advanceJavaDB/advancedb/target/classes started by admin in /home/admin/Desktop/Redmine_karanjeetb)
+2024-11-11 16:39:10 - No active profile set, falling back to 1 default profile: "default"
+2024-11-11 16:39:10 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-11 16:39:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-11 16:39:10 - Finished Spring Data repository scanning in 98 ms. Found 5 JPA repository interfaces.
+2024-11-11 16:39:10 - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-11 16:39:10 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-11 16:39:10 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.advancedb.advancedb.repository.DepartmentRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-11 16:39:10 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.advancedb.advancedb.repository.EmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-11 16:39:10 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.advancedb.advancedb.repository.RankRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-11 16:39:10 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.advancedb.advancedb.repository.ShadowEmployeeRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-11 16:39:10 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.advancedb.advancedb.repository.UserInfoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-11 16:39:10 - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-11 16:39:11 - Tomcat initialized with port 8080 (http)
+2024-11-11 16:39:11 - Starting service [Tomcat]
+2024-11-11 16:39:11 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-11-11 16:39:11 - Initializing Spring embedded WebApplicationContext
+2024-11-11 16:39:11 - Root WebApplicationContext: initialization completed in 1180 ms
+2024-11-11 16:39:11 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-11 16:39:11 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-11 16:39:11 - HHH000026: Second-level cache disabled
+2024-11-11 16:39:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-11 16:39:12 - HikariPool-1 - Starting...
+2024-11-11 16:39:12 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e4b5da1
+2024-11-11 16:39:12 - HikariPool-1 - Start completed.
+2024-11-11 16:39:12 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-11 16:39:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-11 16:39:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11 16:39:13 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-11 16:39:13 - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-11-11 16:39:13 - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-11 16:39:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-11 16:39:14 - Tomcat started on port 8080 (http) with context path '/'
+2024-11-11 16:39:14 - Started AdvancedbApplication in 4.641 seconds (process running for 4.839)
+2024-11-11 17:36:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-11 17:36:14 - HikariPool-1 - Shutdown initiated...
+2024-11-11 17:36:14 - HikariPool-1 - Shutdown completed.
